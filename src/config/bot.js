@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: " red do-not-disturb",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -24,7 +24,11 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Let me introduce myself, I'm Haydra Project Bot.
+I was programmed and developed by Revo & SBA to provide advanced systems, powerful moderation, protection, automation, and utility features for Discord communities.
+My goal is to help server owners manage their communities with ease, improve security, and deliver a fast, professional, and unique experience for every member.
+Created with passion by Revo & SBA.
+Support Server: https://discord.gg/UDmaYgwTnn⁠",
         // Activity type number (0 = Playing).
         type: 0,
       },
